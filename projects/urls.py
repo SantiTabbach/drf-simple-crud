@@ -1,5 +1,5 @@
 from rest_framework import routers
-from .api import ProjectViewSet, TaskViewSet
+from .views import ProjectViewSet, TaskViewSet
 
 router = routers.DefaultRouter()
 
